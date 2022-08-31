@@ -42,6 +42,31 @@
                                 </Style>
                             </Label.Style>
                         </Label>
+                        <Label Content="{TemplateBinding Content}"
+                               Background="Transparent" Margin="-3,0,0,0"
+                               VerticalAlignment="Center" FontSize="23" FontWeight="Bold">
+                            <Label.Style>
+                                <Style TargetType="Label">
+                                    <Setter Property="Foreground" Value="White"/>
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers>
+                                            <DataTrigger Binding="{Binding RelativeSource={RelativeSource
+                                                    Mode=FindAncestor,
+                                                    AncestorType={x:Type Button}},
+                                                    Path=IsFocused}" Value="true">
+                                                <DataTrigger.Setters>
+                                                    <Setter Property="Effect">
+                                                        <Setter.Value>
+                                                            <BlurEffect Radius="25"/>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                    <Setter Property="Visibility" Value="Visible"/>
+                                                </DataTrigger.Setters>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                            </Label.Style>
+                        </Label>
                     </Grid>
                     <Border.Style>
                         <Style TargetType="Border">
