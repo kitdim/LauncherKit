@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="1000" 
         MaxHeight="1000" MinHeight ="600" 
-        MinWidth ="1000" Background = "#FF242424" 
+        MinWidth ="1000" Background = "#FF110203" 
         WindowStartupLocation ="CenterScreen" WindowStyle ="None"
         ResizeMode ="NoResize">
     <Window.Resources>
@@ -20,11 +20,17 @@
                                VerticalAlignment="Center">
                             <Label.Style>
                                 <Style TargetType="Label">
-                                    <Setter Property="Foreground" Value="#0088bb"/>
+                                    <Setter Property="Foreground" Value="#FF9D9999"/>
                                     <Style.Triggers>
                                         <DataTrigger Binding="{Binding Path=IsMouseOver, ElementName=Btn}" 
                                                      Value="true">
-                                            <Setter Property="Foreground" Value="Aqua"/>
+                                            <Setter Property="Foreground" Value="White"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding RelativeSource={RelativeSource
+                                            Mode=FindAncestor,
+                                            AncestorType={x:Type Button}},
+                                            Path=IsPressed}" Value="true">
+                                            <Setter Property="Foreground" Value="#FF9D9999"/>
                                         </DataTrigger>
                                     </Style.Triggers>
                                 </Style>
