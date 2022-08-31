@@ -32,6 +32,12 @@
                                             Path=IsPressed}" Value="true">
                                             <Setter Property="Foreground" Value="#FF9D9999"/>
                                         </DataTrigger>
+                                        <DataTrigger Binding="{Binding RelativeSource={RelativeSource
+                                            Mode=FindAncestor,
+                                            AncestorType={x:Type Button}},
+                                            Path=IsFocused}" Value="true">
+                                            <Setter Property="Foreground" Value="White"/>
+                                        </DataTrigger>
                                     </Style.Triggers>
                                 </Style>
                             </Label.Style>
