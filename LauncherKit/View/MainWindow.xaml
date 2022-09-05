@@ -142,49 +142,49 @@
                 <Button Template="{StaticResource ResourceKey=SlideMenuBtn}"
                         Content="World of Warcraft">
                     <Button.Resources>
-                        <ImageSource x:Key="Img">C:\Users\kitdim\source\repos\kitdim\LauncherKit\LauncherKit\View\Res\Icons\WOW.png</ImageSource>
+                        <ImageSource x:Key="Img">res/icons/WOW.png</ImageSource>
                     </Button.Resources>
                 </Button>
                 <Button Template="{StaticResource ResourceKey=SlideMenuBtn}"
-                        Content="World of Warcraft">
+                        Content="Heroes">
                     <Button.Resources>
-                        <ImageSource x:Key="Img">C:\Users\kitdim\source\repos\kitdim\LauncherKit\LauncherKit\View\Res\Icons\hs.png</ImageSource>
+                        <ImageSource x:Key="Img">res/icons/hs.png</ImageSource>
                     </Button.Resources>
                 </Button>
                 <Button Template="{StaticResource ResourceKey=SlideMenuBtn}"
                         Content="Overwatch">
                     <Button.Resources>
-                        <ImageSource x:Key="Img">C:\Users\kitdim\source\repos\kitdim\LauncherKit\LauncherKit\View\Res\Icons\overwatch.png</ImageSource>
+                        <ImageSource x:Key="Img">res/icons/overwatch.png</ImageSource>
                     </Button.Resources>
                 </Button>
                 <Button Template="{StaticResource ResourceKey=SlideMenuBtn}"
                         Content="Warcraft3">
                     <Button.Resources>
-                        <ImageSource x:Key="Img">C:\Users\kitdim\source\repos\kitdim\LauncherKit\LauncherKit\View\Res\Icons\warcraaft3.png</ImageSource>
+                        <ImageSource x:Key="Img">res/icons/warcraaft3.png</ImageSource>
                     </Button.Resources>
                 </Button>
                 <Button Template="{StaticResource ResourceKey=SlideMenuBtn}"
                         Content="Diablo">
                     <Button.Resources>
-                        <ImageSource x:Key="Img">C:\Users\kitdim\source\repos\kitdim\LauncherKit\LauncherKit\View\Res\Icons\diablo.png</ImageSource>
+                        <ImageSource x:Key="Img">res/icons/diablo.png</ImageSource>
                     </Button.Resources>
                 </Button>
                 <Button Template="{StaticResource ResourceKey=SlideMenuBtn}"
                         Content="Heroes of the Storm">
                     <Button.Resources>
-                        <ImageSource x:Key="Img">C:\Users\kitdim\source\repos\kitdim\LauncherKit\LauncherKit\View\Res\Icons\hots.png</ImageSource>
+                        <ImageSource x:Key="Img">res/icons/hots.png</ImageSource>
                     </Button.Resources>
                 </Button>
                 <Button Template="{StaticResource ResourceKey=SlideMenuBtn}"
                         Content="StarCraft2">
                     <Button.Resources>
-                        <ImageSource x:Key="Img">C:\Users\kitdim\source\repos\kitdim\LauncherKit\LauncherKit\View\Res\Icons\sc2.png</ImageSource>
+                        <ImageSource x:Key="Img">res/icons/sc2.png</ImageSource>
                     </Button.Resources>
                 </Button>
                 <Button Template="{StaticResource ResourceKey=SlideMenuBtn}"
                         Content="StarCraft">
                     <Button.Resources>
-                        <ImageSource x:Key="Img">C:\Users\kitdim\source\repos\kitdim\LauncherKit\LauncherKit\View\Res\Icons\sc.png</ImageSource>
+                        <ImageSource x:Key="Img">res/icons/sc.png</ImageSource>
                     </Button.Resources>
                 </Button>
             </StackPanel>

@@ -8,11 +8,42 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="View\Res\Icons\Close.png" />
+    <None Remove="View\Res\Icons\codbo4.png" />
+    <None Remove="View\Res\Icons\codmw.png" />
+    <None Remove="View\Res\Icons\codmw2.png" />
+    <None Remove="View\Res\Icons\diablo.png" />
+    <None Remove="View\Res\Icons\hots.png" />
+    <None Remove="View\Res\Icons\hs.png" />
+    <None Remove="View\Res\Icons\Open.png" />
+    <None Remove="View\Res\Icons\overwatch.png" />
+    <None Remove="View\Res\Icons\sc.png" />
+    <None Remove="View\Res\Icons\sc2.png" />
+    <None Remove="View\Res\Icons\warcraaft3.png" />
+    <None Remove="View\Res\Icons\WOW.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
-    <Folder Include="View\Res\Icons\" />
     <Folder Include="View\Res\Background\" />
     <Folder Include="View\Res\TopBackground\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="View\Res\Icons\Close.png" />
+    <Resource Include="View\Res\Icons\codbo4.png" />
+    <Resource Include="View\Res\Icons\codmw.png" />
+    <Resource Include="View\Res\Icons\codmw2.png" />
+    <Resource Include="View\Res\Icons\diablo.png" />
+    <Resource Include="View\Res\Icons\hots.png" />
+    <Resource Include="View\Res\Icons\hs.png" />
+    <Resource Include="View\Res\Icons\Open.png" />
+    <Resource Include="View\Res\Icons\overwatch.png" />
+    <Resource Include="View\Res\Icons\sc.png" />
+    <Resource Include="View\Res\Icons\sc2.png" />
+    <Resource Include="View\Res\Icons\warcraaft3.png" />
+    <Resource Include="View\Res\Icons\WOW.png" />
   </ItemGroup>
 
 </Project>
