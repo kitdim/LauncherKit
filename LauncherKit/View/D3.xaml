@@ -9,6 +9,13 @@
       Title="D3">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image Grid.Row ="0" HorizontalAlignment="Center" VerticalAlignment="Top"
+               Stretch="Fill" Source="res/TOPbackground/TopDiablo.png"/>
+        <Image Grid.Row ="1" HorizontalAlignment="Center" VerticalAlignment="Top"
+               Stretch="Fill" Source="res/background/MainDiablo.png"/>
     </Grid>
 </Page>

@@ -9,6 +9,13 @@
       Title="HsPage">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image Grid.Row ="0" HorizontalAlignment="Center" VerticalAlignment="Top"
+               Stretch="Fill" Source="res/TOPbackground/TopHS.png"/>
+        <Image Grid.Row ="1" HorizontalAlignment="Center" VerticalAlignment="Top"
+               Stretch="Fill" Source="res/background/MainHS.png"/>
     </Grid>
 </Page>
