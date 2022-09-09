@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LauncherKit.View
+namespace LauncherLes1.View
 {
     /// <summary>
-    /// Interaction logic for WowPage.xaml
+    /// Логика взаимодействия для W3.xaml
     /// </summary>
-    public partial class WowPage : Page
+    public partial class W3 : Page
     {
-        public WowPage()
+        public W3()
         {
             InitializeComponent();
         }

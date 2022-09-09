@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LauncherKit.View
+namespace LauncherLes1.View
 {
     /// <summary>
-    /// Interaction logic for OverWatchPage.xaml
+    /// Логика взаимодействия для HsPage.xaml
     /// </summary>
-    public partial class OverWatchPage : Page
+    public partial class HsPage : Page
     {
-        public OverWatchPage()
+        public HsPage()
         {
             InitializeComponent();
         }

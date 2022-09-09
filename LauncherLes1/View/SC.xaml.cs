@@ -13,10 +13,10 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LauncherKit.View
+namespace LauncherLes1.View
 {
     /// <summary>
-    /// Interaction logic for SC.xaml
+    /// Логика взаимодействия для SC.xaml
     /// </summary>
     public partial class SC : Page
     {

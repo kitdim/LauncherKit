@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LauncherKit.View
+namespace LauncherLes1.View
 {
     /// <summary>
-    /// Interaction logic for SC2.xaml
+    /// Логика взаимодействия для HOTS.xaml
     /// </summary>
-    public partial class SC2 : Page
+    public partial class HOTS : Page
     {
-        public SC2()
+        public HOTS()
         {
             InitializeComponent();
         }

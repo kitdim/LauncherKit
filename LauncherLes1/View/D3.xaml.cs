@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LauncherKit.View
+namespace LauncherLes1.View
 {
     /// <summary>
-    /// Interaction logic for HOTS.xaml
+    /// Логика взаимодействия для D3.xaml
     /// </summary>
-    public partial class HOTS : Page
+    public partial class D3 : Page
     {
-        public HOTS()
+        public D3()
         {
             InitializeComponent();
         }

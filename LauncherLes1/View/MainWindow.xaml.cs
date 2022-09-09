@@ -9,20 +9,26 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LauncherKit.View
+namespace LauncherLes1.View
 {
     /// <summary>
-    /// Interaction logic for D3.xaml
+    /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
-    public partial class D3 : Page
+    public partial class MainWindow : Window
     {
-        public D3()
+        public MainWindow()
         {
             InitializeComponent();
+        }
+        private void Border_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                DragMove();
+            }
         }
     }
 }
